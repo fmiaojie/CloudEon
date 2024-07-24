@@ -14,8 +14,8 @@
     <properties>
         <!--前端打包-->
         <maven-frontend-plugin.version>1.15.0</maven-frontend-plugin.version>           
-         <!--  <maven-frontend-plugin.nodeVersion>v16.13.1</maven-frontend-plugin.nodeVersion>
-        <maven-frontend-plugin.yarnVersion>v1.22.19</maven-frontend-plugin.yarnVersion> -->
+        <maven-frontend-plugin.nodeVersion>v20.12.2</maven-frontend-plugin.nodeVersion>
+        <maven-frontend-plugin.yarnVersion>v1.22.22</maven-frontend-plugin.yarnVersion>
         <!--        <maven-frontend-plugin.nodeVersion>v9.9.0</maven-frontend-plugin.nodeVersion>-->
         <!--        <maven-frontend-plugin.npmVersion>6.9.0</maven-frontend-plugin.npmVersion>-->
         <maven-frontend-plugin.npmVersion>8.1.2</maven-frontend-plugin.npmVersion>
@@ -59,9 +59,9 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <!-- <nodeVersion>${maven-frontend-plugin.nodeVersion}</nodeVersion> -->
-                    <!-- <npmVersion>${maven-frontend-plugin.npmVersion}</npmVersion> -->
-                    <!-- <yarnVersion>${maven-frontend-plugin.yarnVersion}</yarnVersion> -->
+                    <nodeVersion>${maven-frontend-plugin.nodeVersion}</nodeVersion>
+                    <npmVersion>${maven-frontend-plugin.npmVersion}</npmVersion>
+                    <yarnVersion>${maven-frontend-plugin.yarnVersion}</yarnVersion>
                     <!-- 若不方便访问官网，可手动设置镜像地址-->
                     <nodeDownloadRoot>https://npmmirror.com/mirrors/node/</nodeDownloadRoot>
                     <npmDownloadRoot>https://registry.npmmirror.com/npm/-/</npmDownloadRoot>
